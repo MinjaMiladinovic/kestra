@@ -246,3 +246,4 @@ See our [Plugin Developer Guide](https://kestra.io/docs/plugin-developer-guide/)
 
 ## License
 Apache 2.0 © [Kestra Technologies](https://kestra.io)
+[![CodeScene System Mastery](https://test-env-2.enterprise.codescene.io/1035/status-badges/system-mastery)](https://test-env-2.enterprise.codescene.io/1035/analyses/latest/dashboard)
