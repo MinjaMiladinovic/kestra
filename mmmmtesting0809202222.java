@@ -216,24 +216,6 @@ public class CrystalAura extends Module {
         .build()
     );
 
-    private final Setting<Integer> supportDelay = sgPlace.add(new IntSetting.Builder()
-        .name("support-delay")
-        .description("Delay in ticks after placing support block.")
-        .defaultValue(1)
-        .min(0)
-        .visible(() -> support.get() != SupportMode.Disabled)
-        .build()
-    );
-
-    // Face place
-
-    private final Setting<Boolean> facePlace = sgFacePlace.add(new BoolSetting.Builder()
-        .name("face-place")
-        .description("Will face-place when target is below a certain health or armor durability threshold.")
-        .defaultValue(true)
-        .build()
-    );
-
     private final Setting<Double> facePlaceHealth = sgFacePlace.add(new DoubleSetting.Builder()
         .name("face-place-health")
         .description("The health the target has to be at to start face placing.")
