@@ -1,5 +1,5 @@
 
-[![CodeScene Code Health](https://test-env.enterprise.codescene.io/1/status-badges/code-health?component-name=codescene%2Ffeatures)](https://test-env.enterprise.codescene.io/1/analyses/latest/architecture/biomarkers?component=codescene%2Ffeatures)
+
 
 <p align="center">
   <a href="https://www.kestra.io">
